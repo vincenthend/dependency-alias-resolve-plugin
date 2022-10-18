@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "src/*": [
+                "src/*"
+            ]
+        },
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "dist",
+        "allowJs": true
+    },
+    "include": ["src/*"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "resolve-plugin",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vincent Halim <vincenthendrha@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "dependencies": {
+    "typescript": "latest",
+    "webpack": "^5.74.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "main-package",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vincent Halim <vincenthendrha@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "dependencies": {
+    "dependency-package": "*",
+    "esbuild-loader": "^2.20.0",
+    "typescript": "latest",
+    "webpack": "^5.74.0",
+    "resolve-plugin": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
