@@ -1,5 +1,5 @@
 const path = require('path')
-const { AliasResolvePlugin } = require('dependency-alias-resolve-plugin')
+const { DependencyAliasResolvePlugin } = require('dependency-alias-resolve-plugin')
 
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
             src: path.resolve(__dirname, 'src')
         },
         plugins: [
-            new AliasResolvePlugin()
+            new DependencyAliasResolvePlugin()
         ]
     },
     module: {
