@@ -11,7 +11,7 @@
     "esbuild-loader": "^2.20.0",
     "typescript": "latest",
     "webpack": "^5.74.0",
-    "resolve-plugin": "*"
+    "dependency-alias-resolve-plugin": "*"
   },
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"

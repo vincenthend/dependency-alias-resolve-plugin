@@ -2,7 +2,7 @@ import webpack from 'webpack'
 import fs from 'fs'
 import path from 'path'
 
-export class AliasResolvePlugin implements webpack.ResolvePluginInstance {
+export class DependencyAliasResolvePlugin implements webpack.ResolvePluginInstance {
     private cache: Map<string, string[]>
 
     constructor() {

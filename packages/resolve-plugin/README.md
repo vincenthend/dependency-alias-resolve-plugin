@@ -1,11 +1,19 @@
-# `dependency-package`
+# `dependency-alias-resolve-plugin`
 
-> TODO: description
+Webpack resolve plugin that will resolve alias for dependency packages
+
 
 ## Usage
 
-```
-const dependencyPackage = require('dependency-package');
+```js
+const { DependencyAliasResolvePlugin } = require('dependency-alias-resolve-plugin');
 
-// TODO: DEMONSTRATE API
+module.exports = {
+    //...
+    resolve: {
+        plugins: [
+            new DependencyAliasResolvePlugin()
+        ]
+    }
+}
 ```

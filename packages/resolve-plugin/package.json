@@ -1,9 +1,7 @@
 {
-  "name": "resolve-plugin",
+  "name": "dependency-alias-resolve-plugin",
   "version": "0.0.0",
-  "description": "> TODO: description",
   "author": "Vincent Halim <vincenthendrha@gmail.com>",
-  "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",
   "dependencies": {

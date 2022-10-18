@@ -1,6 +1,5 @@
 const path = require('path')
-// const { ESBuildMinifyPlugin } = require('esbuild-loader')
-const { AliasResolvePlugin } = require('resolve-plugin')
+const { AliasResolvePlugin } = require('dependency-alias-resolve-plugin')
 
 
 module.exports = {
